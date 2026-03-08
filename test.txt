@@ -1,0 +1,3 @@
+This text is writtern by script
+
+This is written when this function call is 2
