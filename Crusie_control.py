@@ -66,8 +66,20 @@ else:
 t_url = url.split("/")[-4]
 print(t_url)
 
+for i in range(0, 10):
+    if i % 2 == 0:
+        print(i, "is even")
+    else:
+        print(i, "is odd")
 
+for i in range(1, 11):
+    print("@"   * i)
 
-with open(path,"r") as f:
-    data = f.read()
-    print(data)
+for i in range (11,1,-1):
+    print("@" * i)
+
+a = 5
+b = 10
+a,b = b,a # swap the values of a and b
+print("a is", a)
+print("b is", b)
