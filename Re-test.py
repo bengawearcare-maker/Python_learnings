@@ -52,3 +52,38 @@ with open(path, "r") as r:
     Read_Lines = r.read()
     print("Automation reading when function call 2",Read_Lines)
 
+Two_words = ["Hello","Inaaya"]
+Join_words = ' '.join(Two_words)
+print(Join_words)
+
+Twwo_words = {"Name": "Karamath", "Surname": "Sheik"}
+Join_Twwo_words = ' '.join(Twwo_words.values())
+print(Join_Twwo_words)
+
+Splitting = Join_Twwo_words.split()
+print(Splitting)
+print(Splitting[0])
+print(Splitting[1])
+
+List_of_numbers = [1,2,3,4]
+List_of_numbers.append(10)
+print(List_of_numbers)
+
+List_of_numbers.extend([20,21,23])
+print(List_of_numbers)
+
+List_of_numbers.insert(5,6)
+print(List_of_numbers)
+
+Remove_number = List_of_numbers.pop()
+print("Removed number is", Remove_number)
+print(List_of_numbers)
+
+String_replace = {"Name":"Karamath","Surname":"Sheik"}
+S_replaced_with = String_replace["Surname"].replace("Sheik","Mohammed")
+print("Replaced Sheik with :" + S_replaced_with)
+print(String_replace["Name"] + " " + S_replaced_with)
+
+String_formatting = "Karamath"
+Greeting = f"Hello {String_formatting}"
+print(Greeting)
