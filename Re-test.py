@@ -87,3 +87,41 @@ print(String_replace["Name"] + " " + S_replaced_with)
 String_formatting = "Karamath"
 Greeting = f"Hello {String_formatting}"
 print(Greeting)
+
+number = 10
+if number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
+
+
+Numbers_List_biggest = [1, 5, 3, 9, 2]
+biggest_number = max(Numbers_List_biggest)
+print(f"Biggest number in this list is {Numbers_List_biggest}", biggest_number)
+
+Reverse_string = "Karamath"
+R_string = Reverse_string[::-1]
+print(f"Reverse of string {Reverse_string} is {R_string}")
+
+Reverse2_string2 = "Inaaya"
+R2_String2 = Reverse2_string2[::-1]
+print("Reverse2 string is " + R2_String2)
+
+Reverse3_Geetha = "Geetha"
+print(f"I have sucessfully revered {Reverse3_Geetha} as {Reverse3_Geetha[::-1]}")
+
+#Count how many times a letter appear
+Alphabet_count = "Karamath"
+print(f"Total number of a in {Alphabet_count} are {Alphabet_count.count('a')}")
+
+Alphebet_geetha = "Geetha"
+print(f"Total number of e in {Alphebet_geetha} are {Alphebet_geetha.count("e")}")
+
+#Guess the number game
+import random
+Total_numbers = random.randint(1,100)
+Storage_guess = int(input("Guess a number b/n 1 to 100"))
+if Storage_guess == Total_numbers:
+    print("Congratulations! You guessed the number correctly.")
+else:
+    print(f"Sorry, the correct number was {Total_numbers}. Better luck next time!")
